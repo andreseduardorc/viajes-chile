@@ -1,0 +1,25 @@
+body {
+    background-color: #000;
+    color: #fff;
+}
+
+hr {
+    background-color: #5ab8c9;
+}
+
+.card {
+    margin: 2rem 0;
+    background-color: #5ab8c9;
+}
+
+.card img {
+    height: 50%;
+}
+
+.card-body {
+    color: #fff;
+}
+
+footer {
+    background-color: #5ab8c9;
+}
