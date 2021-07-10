@@ -9,6 +9,7 @@ html {
 body {
     background-color: #000;
     color: #fff;
+    font-family: 'Roboto', sans-serif;
 }
 
 h2 {
@@ -52,4 +53,7 @@ hr {
 
 footer {
     background-color: #5ab8c9;
+    font-size: 2rem;
+    margin-top: 2rem;
+    font-weight: 500;
 }
