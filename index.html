@@ -10,23 +10,14 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
     <link rel="stylesheet" href="./assets/css/style.css">
     <title>Viajes Chile</title>
-    <style>
-        html {
-            scroll-behavior: smooth;
-        }
-        /* #section1 {}
-        
-        #section2 {}
-        
-        #section3 {} */
-    </style>
+
 
 </head>
 
 <body>
 
-    <section>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <section class="navegador">
+        <nav class="navbar navbar-expand-lg navbar-dark">
             <img src="./assets/img/viajes.svg" width="30" height="30" alt="">
             <a class="navbar-brand" href="#">Viajes chile</a>
 
@@ -53,7 +44,7 @@
             </div>
         </nav>
 
-        <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+        <div id="carouselExampleSlidesOnly" class="carousel slide " data-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
                     <img src="./assets/img/carousel1.jpg" class="d-block w-100" alt="imagen1">
@@ -75,25 +66,25 @@
                 <a href="#section1"></a>
             </div>
 
-            <h1 class="text-center"> Quienes Somos </h1>
+            <h1 class="text-center py-5"> Quienes Somos </h1>
             <hr />
 
 
 
             <section class="d-flex justify-content-around">
 
-                <p class="col-3"><i class="fas fa-plane"></i> Vivamus vehicula ultricies mauris quis consequat. Praesent dignissim orci ac dui ultricies, maximus gravida dui pretium. Nullam eu elementum dui. Sed consequat pretium magna, finibus finibus leo gravida sed.
-                    Vivamus enim diam, aliquam non efficitur mattis, bibendum at mauris. Vestibulum eu massa lacinia, rhoncus diam vitae, bibendum leo. Morbi sit amet odio quis ante ultrices hendrerit eget sed est. Phasellus in velit quis lacus lacinia
+                <p class="col-3"><i class="fas fa-plane boton"></i> Vivamus vehicula ultricies mauris quis consequat. Praesent dignissim orci ac dui ultricies, maximus gravida dui pretium. Nullam eu elementum dui. Sed consequat pretium magna, finibus finibus leo gravida
+                    sed. Vivamus enim diam, aliquam non efficitur mattis, bibendum at mauris. Vestibulum eu massa lacinia, rhoncus diam vitae, bibendum leo. Morbi sit amet odio quis ante ultrices hendrerit eget sed est. Phasellus in velit quis lacus lacinia
                     ultrices ac eget lorem. Donec sollicitudin sapien metus, vitae aliquet tellus faucibus quis. </p>
 
                 <p class="col-3">
                     Vivamus vehicula ultricies mauris quis consequat. Praesent dignissim orci ac dui ultricies, maximus gravida dui pretium. Nullam eu elementum dui. Sed consequat pretium magna, finibus finibus leo gravida sed. Vivamus enim diam, aliquam non efficitur mattis,
                     bibendum at mauris. Vestibulum eu massa lacinia, rhoncus diam vitae, bibendum leo. Morbi sit amet odio quis ante ultrices hendrerit eget sed est. Phasellus in velit quis lacus lacinia ultrices ac eget lorem. Donec sollicitudin sapien
-                    metus, vitae aliquet tellus faucibus quis.<i class="fas fa-mountain"></i>
+                    metus, vitae aliquet tellus faucibus quis.<i class="fas fa-mountain boton"></i>
                 </p>
 
                 <p class="col-3">
-                    <i class="fas fa-route"></i>Vivamus vehicula ultricies mauris quis consequat. Praesent dignissim orci ac dui ultricies, maximus gravida dui pretium. Nullam eu elementum dui. Sed consequat pretium magna, finibus finibus leo gravida
+                    <i class="fas fa-route boton"></i>Vivamus vehicula ultricies mauris quis consequat. Praesent dignissim orci ac dui ultricies, maximus gravida dui pretium. Nullam eu elementum dui. Sed consequat pretium magna, finibus finibus leo gravida
                     sed. Vivamus enim diam, aliquam non efficitur mattis, bibendum at mauris. Vestibulum eu massa lacinia, rhoncus diam vitae, bibendum leo. Morbi sit amet odio quis ante ultrices hendrerit eget sed est. Phasellus in velit quis lacus lacinia
                     ultrices ac eget lorem. Donec sollicitudin sapien metus, vitae aliquet tellus faucibus quis.
                 </p>
@@ -107,7 +98,7 @@
                 <a href="#section2"></a>
             </div>
 
-            <h2 class="text-center">Destacados</h2>
+            <h2 class="text-center pb-2">Destacados</h2>
             <hr />
             <section class="row justify-content-around">
 
@@ -152,7 +143,7 @@
                     <a href="#section3"></a>
                 </div>
                 <section>
-                    <h2 class="text-center">Contacto</h2>
+                    <h2 class="text-center pb-2">Contacto</h2>
                     <hr />
                     <div class="typeform-widget" data-url="https://form.typeform.com/to/EzcjYCw5?typeform-medium=embed-snippet" style="width: 100%; height: 500px;"></div>
                     <script>
@@ -176,7 +167,7 @@
             </section>
         </section>
     </section>
-    <footer>Viajes Chile
+    <footer class="text-center d-flex justify-content-around">Viajes Chile
         <article>
             <i class="fab fa-github-square"></i>
             <i class="fab fa-linkedin"></i>

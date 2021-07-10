@@ -1,10 +1,40 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     background-color: #000;
     color: #fff;
 }
 
+h2 {
+    padding-top: 5rem;
+}
+
+.navegador {
+    position: relative;
+}
+
+.navegador nav {
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+    padding: 0 5%;
+}
+
 hr {
     background-color: #5ab8c9;
+}
+
+.boton {
+    display: block;
+    text-align: center;
+    background-color: #5ab8c9;
+    padding: 0.5rem 0;
 }
 
 .card {
